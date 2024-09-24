@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link rel="stylesheet" href="../styles/profile.css" />
+
+    <script src="../Script/profile.js" defer></script>
+  </head>
+  <body>
+
+
+       <!--==Navigation================================-->
+       <nav class="bottom-navbar">
+        <a href="../index.html" class="nav-item">
+            <i class="fas fa-home"></i> Home
+        </a>
+        <a href="./map.html" class="nav-item">
+            <i class="fas fa-map-marker-alt"></i> Map
+        </a>
+        <a href="./appointment.html" class="nav-item">
+            <i class="fas fa-calendar-check"></i> Book
+        </a>
+
+        <a href="./emergency.html" class="nav-item">
+          <i class="fa-solid fa-land-mine-on"></i>Urgent
+      </a>
+        <a href="#profile.html" class="nav-item">
+            <i class="fas fa-user"></i> Profile
+        </a>
+    </nav>
+
+    
+
+    <section class="hero">
+      <a href="../html/registration.html"><img
+        class="logout"
+        src="../assets/profile/logout.png"
+      /></a>
+
+
+      <div class="info">
+
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img
+          src="../assets/profile/mason-wilkes-TMgQMXoglsM-unsplash.jpg"
+          alt="Mason Wilkes"
+        />
+      </div>
+
+      
+      <div class="hero-info">
+        <h1>Satyam Yadav</h1>
+        <h2>20 Years - Male</h2>
+
+      </div>
+    </section>
+    <section class="experience">
+      <h2><b> O+ </b><br />Blood Group</h2>
+      <h2><b>69.7</b><br />Weight<br /></h2>
+      <h2><b>5.11 </b><br />Height</h2>
+    </section>
+
+  </div>
+
+
+
+    <section class="cta">
+      <a href="../assets/profile/example-cv.pdf" download>
+        <button class="btn download-btn">Lab Reports</button>
+      </a>
+
+      <a href="./appointment.html"
+        ><button class="btn contact-btn">Appointment</button></a
+      >
+
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Medical History</button>
+        <button class="btn-2" id="skills-btn">Documents</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      
+      <div class="wrapper project-wrapper">
+        <h2>Bone Fracture</h2>
+        <a href="https://github.com/"
+          ><img src="../assets/profile/project-1.png" alt="Project 1"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <h2>Cough</h2>
+        <a href="https://github.com/"
+          ><img src="../assets/profile/project-2.png" alt="Project 2"
+        /></a>
+      </div>
+
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Frontend</h3>
+        <article class="frontend-skills">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>SASS</p>
+          <p>LESS</p>
+          <p>JavaScript</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Angular</p>
+          <p>Material UI</p>
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Backend</h3>
+        <article class="backend-skills">
+          <p>Node.js</p>
+          <p>Express.js</p>
+          <p>APIs</p>
+          <p>Database CRUD</p>
+          <p>Git</p>
+          <p>GraphQL</p>
+          <p>Web Servers</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+    </footer>
+  </body>
+</html>

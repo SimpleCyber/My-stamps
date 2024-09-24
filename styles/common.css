@@ -1,0 +1,54 @@
+.bottom-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: right;
+  display: none;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  flex: 1;
+  padding: 10px 0;
+  font-weight: 500;
+  align-items: center;
+  justify-content: right;
+}
+
+.nav-item i {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(249, 235, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    z-index: 1000;
+  }
+
+  .nav-item {
+    color: black; /* Changed color to black 🌋 */
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    flex: 1;
+    padding: 10px 0;
+    font-weight: 500;
+  }
+
+  .nav-item i {
+    display: block;
+    font-size: 20px; /* Adjust icon size if needed */
+    margin-bottom: 2px; /* Adjust spacing between icon and text */
+  }
+}

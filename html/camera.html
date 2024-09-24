@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Camera Access</title>
+    <link rel="stylesheet" href="../styles/camera.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search stamps by camera</h1>
+
+      <!-- Video element to display the camera stream -->
+      <video id="camera-stream" autoplay playsinline></video>
+
+      <!-- Button to capture photo -->
+      <button id=" start-cameracapture-photo ">Capture Photo</button>
+
+      <!-- Button to start the camera -->
+      <button id="">
+        Upload files
+        <input
+          type="file"
+          id="selfie"
+          capture="user"
+          accept="image/*,video/*"
+        />
+      </button>
+
+      <!-- Canvas to show captured photo -->
+      <canvas id="snapshot"></canvas>
+    </div>
+
+    <script src="../Script/camera.js"></script>
+  </body>
+</html>
